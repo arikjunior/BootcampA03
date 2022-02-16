@@ -25,15 +25,27 @@ header {
   background-color: rgba(34, 49, 52, 0.9);
   position :fixed;
   top: 0;
+  color: white;
   z-index: 10;
 }
 
 .main {
-  padding: 150px 0 150px 0;
+  padding: 150px 0 100px 0;
   background-image: url(image/bg.jpg);
   background-size: cover;
   color: rgb(255, 255, 255);
   text-align: center;
+}
+
+.main-banner:before{
+	content: '';
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	left: 0;
+	bottom: 100;
+	background: url(image/wave-d.png) 100% 100% no-repeat;
+	background-size: contain;
 }
 
 .main-image span{
@@ -41,7 +53,7 @@ header {
 }
 
 .main h1 {
-  opacity: 0.7;
+  opacity: 0.8;
   font-size: 45px;
   letter-spacing: 3px;
   margin-bottom: 10px;
@@ -56,16 +68,8 @@ header {
 }
 
 .main p {
-  opacity: 0.7;
+  opacity: 1;
   margin-bottom: 3px;
-  text-shadow: 0 0 10px #000000,
-               0 0 20px #000000,
-               0 0 40px #000000,
-               0 0 80px #000000,
-               0 0 120px #000000,
-               0 0 200px #000000,
-               0 0 300px #000000,
-               0 0 400px #000000;
 }
 
 .btn-main {
