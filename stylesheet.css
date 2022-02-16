@@ -85,3 +85,21 @@ header {
   top: 7px;
   box-shadow: none;
 }
+
+footer {
+  background-color: rgba(34, 49, 52, 0.9);
+  color: #fff;
+  height: 250px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+.footer-list {
+  float: right;
+}
+.footer-list li {
+  padding-bottom: 20px;
+}
