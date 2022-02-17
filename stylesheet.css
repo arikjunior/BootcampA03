@@ -19,14 +19,53 @@ a {
   margin: 0 auto;
 }
 /* CLASS HEADING */
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+header{ 
+  height:65px;
+  width:100%;
   position :fixed;
-  top: 0;
-  color: white;
+  top: 0px;
   z-index: 10;
+  background-color: rgba(1, 9, 29, 0.897);
+}
+.header-logo {
+  float:left;
+  width: 124px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style:italic;
+  line-height: 65px;
+  color: white;
+  display:block;
+}
+
+.header-menu{
+  float:right;
+  margin-right: -25px;
+  margin-top:0px;
+  transition:all 0.5s;
+}
+.header-menu li{
+  list-style:none;
+  float:left;
+}
+.header-menu a{
+  color: white;
+  line-height: 65px;
+  padding:15px 15px 5px 15px;
+}
+.header-menu a:hover{
+  background-color: rgba(143, 186, 235, 0.3);
+  border-radius:3px;
+}
+.header-menu a:active{
+  background-color: rgba(9, 139, 226, 0.596);
+}
+.fa {
+  margin-right: 5px;
+}
+.menu-icon{
+  display:none;
+  color:white;
+  float:right;
 }
 /* BATAS CLASS HEADING */
 
