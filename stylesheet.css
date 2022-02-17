@@ -269,20 +269,17 @@ header{
 /* CLASS FOOTER */
 footer {
   background-color: rgba(34, 49, 52, 0.9);
-  color: #fff;
-  font-family: 'Oleo Script', cursive;
-  height: 250px;
-  padding: 40px;
+  height: 300px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
-.footer-logo {
-  float: left;
-  font-size: 32px;
+footer img {
+  width: 250px;
 }
-.footer-list {
-  float: right;
-}
-.footer-list li {
-  padding-bottom: 20px;
+
+footer p {
+  color: #000000;
+  font-size: 20px;
 }
 /* BATAS CLASS FOOTER */
