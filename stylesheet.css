@@ -252,18 +252,6 @@ header{
 /* BATAS CLASS BODY 1 */
 
 
-/* CLASS BODY 2 */
-
-.body3{
-  padding: 150px 0 100px 0;
-  background: url(image/wave-d2.png) 80% 100%;
-  background-size: cover;
-  background-color: #374547;
-  color: rgb(3, 2, 2);
-  text-align: center;
-}
-/* BATAS CLASS BODY 2 */
-
 /* BATAS CLASS BODY 2 */
 .body3 {
   padding: 0 0 100px 0;
@@ -327,6 +315,30 @@ header{
 .kartu-partner img {
   width: 300px;
   border-radius: 1%;
+}
+@media (max-width: 1000px) {
+  .body3{
+    width: 100%;
+    padding: 30px 40px 40px 35px ;
+  }
+  .partner-list{
+    display: block;
+ }
+ .colom{
+   text-align: center;
+ }
+}
+@media (max-width: 670px) {
+  .body3{
+    width: 100%;
+    padding: 30px 40px 40px 35px ;
+  }
+  .partner-list{
+    display: block;
+ }
+ .colom{
+   text-align: center;
+ }
 }
 
 /* BATAS CLASS BODY 2 */
@@ -431,6 +443,40 @@ header{
 }
 .button input[type="button"]:hover{
   background: #5029bc;
+}
+@media (max-width: 1000px) {
+  .contact-us{
+    width: 97%;
+    padding: 30px 40px 40px 35px ;
+  }
+  .contact-us .content .right-side{
+   width: 75%;
+   margin-left: 55px;
+}
+}
+@media (max-width: 670px) {
+  .contact-us{
+    margin: 40px 0;
+    height: 100%;
+    width: 100%;
+  }
+  .contact-us .content{
+    flex-direction: column-reverse;
+  }
+  .contact-us .content .left-side{
+   width: 100%;
+   flex-direction: row;
+   margin-top: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ .contact-usr .content .left-side::before{
+   display: none;
+ }
+ .contact-us .content .right-side{
+   width: 100%;
+   margin-left: 0;
+ }
 }
 /* BATAS CLASS BODY 3 */
 
