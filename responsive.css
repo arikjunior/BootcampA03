@@ -2,7 +2,11 @@
 @media all and (max-width: 1000px) {
 
     .header-logo{
-        font-size: 20px;
+        width: 200px;
+        margin-top: -65px;
+    }
+    .header-menu {
+        margin-right: 15px;
     }
 
     .main h1 {
@@ -24,12 +28,13 @@
 @media all and (max-width: 670px) {
 
 
-    .header-right{
+    .header-menu{
         display:none;
     }
       
     .menu-icon{
       display:block;
+      margin-top: 20px;
     }
     
     .main h1 {
