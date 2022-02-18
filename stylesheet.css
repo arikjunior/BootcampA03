@@ -262,9 +262,9 @@ font-size: 20px;
 }
 
 .contact-us{
-  padding: 0 0 100px 0;
+  padding: 100px 0 100px 0;
   background-size: cover;
-  background-color: transparent;
+  /* background-image: linear-gradient(rgb(255, 255, 255), #374547); */
   color: rgb(3, 2, 2);
 }
 .contact-us .content{
@@ -316,7 +316,7 @@ font-size: 20px;
   padding-right: 20px;
 }
 .content .right-side .topic-text{
-  font-size: 23px;
+  font-size: 30px;
   font-weight: 600;
   color: #000000;
 }
